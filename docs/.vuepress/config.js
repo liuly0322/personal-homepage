@@ -3,7 +3,7 @@ module.exports = {
   description: "刘良宇的个人主页",
   head: [["link", { rel: "icon", href: `/logo.png` }]],
   base: "/~liuly0322/home/",
-  dest: "./dist",
+  dest: "./home",
 
   themeConfig: {
     search: false,
