@@ -1,46 +1,38 @@
 module.exports = {
-  title: "Harry Potter",
-  description: "The description of the site.",
+  title: "个人主页",
+  description: "刘良宇的个人主页",
   head: [["link", { rel: "icon", href: `/logo.png` }]],
-  base: "/",
+  base: "/~liuly0322/home/",
   dest: "./dist",
 
   themeConfig: {
     search: false,
     nav: [
-      { text: "Home", link: "/" },
-      { text: "About", link: "/about/" },
-      { text: "Projects", link: "/projects/" },
-      { text: "Guide", link: "/guide/" },
-      { text: "GitHub", link: "https://github.com/mtobeiyf/vuepress-homepage" }
+      { text: "主页", link: "/" },
+      { text: "关于", link: "/about/" },
+      { text: "项目", link: "/projects/" },
     ],
     sidebar: {
-      '/guide/': genSidebarConfig('Guide')
+      "/guide/": genSidebarConfig("Guide"),
     },
-    lastUpdated: 'Last Updated'
+    lastUpdated: "最近更新时间",
   },
 
   markdown: {
     // options for markdown-it-anchor
     anchor: { permalink: false },
-    extendMarkdown: md => {
+    extendMarkdown: (md) => {
       md.use(require("markdown-it-katex"));
-    }
-  }
+    },
+  },
 };
 
-function genSidebarConfig (title) {
+function genSidebarConfig(title) {
   return [
     {
       title,
       collapsable: false,
-      children: [
-        '',
-        'getting-started',
-        'customize',
-        'advanced',
-      ]
-    }
-  ]
+      children: ["", "getting-started", "customize", "advanced"],
+    },
+  ];
 }
-
