@@ -1,32 +1,33 @@
 ---
 pageClass: about-page
-description: 'The biography and information about me.'
+description: "个人经历与信息"
 avatar: /profile.jpg
-head: 'Harry Potter'
-info: 'Student at Hogwarts School'
-interests: 'Interests: Quidditch and Wizard chess.'
+head: "刘良宇"
+info: "USTC 计算机科学与技术 20 级本科"
+interests: "所以总的来说爱好是二次元 （？）"
 socials:
-- title: github
-  link: https://github.com/mtobeiyf
-- title: linkedin
-  link: https://www.linkedin.com
-- title: instagram
-  link: https://www.instagram.com
-- title: email
-  link: 'mailto:harry[at]gmail.com'
+  - title: github
+    link: https://github.com/liuly0322
+  - title: email
+    link: "mailto:liuly0322@mail.ustc.edu.cn"
 actions:
-- text: Projects
-  link: /projects/
-- text: Blog
-  link: https://github.com/mtobeiyf
-- text: CV
-  link: /article/
+  - text: 项目
+    link: /~liuly0322/home/projects/
+  - text: 博客
+    link: http://home.ustc.edu.cn/~liuly0322/blog
 footer: Made with ♥ by Fing. Powered by VuePress
 ---
 
 <AboutCard :frontmatter="$page.frontmatter" >
 
-I attended [Hogwarts School of Witchcraft and Wizardry](https://en.wikipedia.org/wiki/Hogwarts) to study witchcraft, supervised by **Dumbledore** and other professors. I'm trying my best to battle with Lord Voldemort, the evil Wizard that we all fear. My research area includes Defence Against the Dark Arts and other magic. :dizzy:
+暂时只是一个很爱摸鱼的学生，日常有点宅, Arcaea 和 Phigros 苦手，偶尔打打原神
+
+- [qq 音乐歌单](https://i.y.qq.com/n2/m/share/details/taoge.html?id=2363529455)（国风 / 轻音）
+- [b 站](https://space.bilibili.com/29140520)（虽然大部分都设置隐私了 x）
+
+已读不回专业户
+
+只要我这句话写得够长就会有笨蛋跟着读 :dizzy:
 
 </AboutCard>
 

@@ -20,6 +20,7 @@
       </div>
       <div class="contact">
         <div class="email" title="Contact me">{{ data.email }}</div>
+        <div class="email" title="Contact me">qq: {{ data.qq }}</div>
       </div>
       <div v-if="data.cv">
         <a target="_blank" :href="data.cv" title="Download my CV in PDF">

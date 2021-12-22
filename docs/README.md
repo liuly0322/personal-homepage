@@ -2,80 +2,65 @@
 pageClass: home-page
 # some data for the components
 
-name: Harry Potter
+name: 刘良宇
 profile: /profile.jpg
 
 socials:
   - title: github
-    icon: "/icons/github.svg"
-    link: https://github.com/mtobeiyf
-  - title: linkedin
-    icon: "/icons/linkedin-mono.svg"
-    link: https://www.linkedin.com
-  - title: instagram
-    icon: "/icons/instagram-mono.svg"
-    link: https://www.instagram.com
+    icon: "/~liuly0322/home/icons/github.svg"
+    link: https://github.com/liuly0322
 
-cv: https://en.wikipedia.org/wiki/Harry_Potter
-bio: Student at Hogwarts School
-email: harry (at) hogwarts (dot) edu
+bio: Student at USTC
+email: liuly0322@mail.ustc.edu.cn
+qq: 453026205
 ---
 
 <ProfileSection :frontmatter="$page.frontmatter" />
 
-## About Me
+## 教育经历
 
-I attended [Hogwarts School of Witchcraft and Wizardry](https://en.wikipedia.org/wiki/Hogwarts) to study witchcraft, supervised by **Dumbledore** and other professors. 
+- 2020.9 ~ 就读于中国科学技术大学少年班学院，本科，修读计算机科学与技术专业
+- 2018.9 ~ 2020.7 : 合肥一六八中学
 
-I'm trying my best to battle with Lord Voldemort, the evil Wizard that we all fear. My research area includes Defence Against the Dark Arts and other magic. :dizzy:
+## 项目
 
+[→ 查看全部](/projects/)
 
-## News
+<ProjectCard image="/projects/blog.png" hideBorder=true>
 
-- [Sept 1991] Attended Hogwarts
-- [July 1980] Born in Godric's Hollow, West Country, England, Great Britain
+**个人博客** [[链接](http://home.ustc.edu.cn/~liuly0322/blog)]
 
+基于 hexo 搭建，修改官方主题以满足自己需要
 
-## Education & Experiences
-
-- **Hogwarts School of Witchcraft and Wizardry** <br/>
-Sept 1991 - 1997
-
-
-## Projects
-
-
-[→ Full list](/projects/)
-
-<ProjectCard image="/projects/1.png" hideBorder=true>
-
-  **The Making of Harry Potter's Wand**
-
-  Harry P., Hermione G., *et al*
-  
-  Harry's wand was broken in 1997, but was repaired by him after the 1998 Battle of Hogwarts. Usually the repair of a wand is impossible, but with the use of the Elder Wand it was achievable.
-  
-  [[PDF](https://www.google.com)] [[arXiv](https://arxiv.org)]
+- 深色模式支持
+- 全站最新评论
+- mermaid, mathjax......
 
 </ProjectCard>
 
-<ProjectCard hideBorder=true>
+<ProjectCard image="/projects/lc3web.png" hideBorder=true>
 
-  **Harry Potter and the Deathly Hallows**
-  
-  In the epilogue of Deathly Hallows, which is set 19 years after Voldemort's death, Harry and Ginny are a couple and have three children: James Sirius Potter, who has already been at Hogwarts for at least one year, Albus Severus Potter, who is starting his first year there, and Lily Luna Potter, who is two years away from her first year at the school.
+**lc3 自动评测系统** [[链接](http://home.ustc.edu.cn/~liuly0322/lc3web)]
 
-  [[Link](https://www.google.com)]
+基于 github 上的 lc-3 模拟器项目，提供了完备的脚本自助评测功能
+
+很适合需要学 _Introduction to Computing Systems_ 课程的同学使用
 
 </ProjectCard>
 
+<ProjectCard image="/projects/dslab1.png" hideBorder=true>
 
-## Awards & Honors
+**数据结构课程实验航空订票系统** [[链接](http://home.ustc.edu.cn/~liuly0322/homework/flight/)]
 
-### Contests
+基于 github 上的 c++ WebServer
 
-- First place in **The Hogwarts House Cup**
+后端通过链表简单实现一个订票系统
 
+</ProjectCard>
+
+## 获奖情况
+
+- ~~等有啥重量级再更~~
 
 <!-- Custom style for this page -->
 
