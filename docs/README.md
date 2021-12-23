@@ -7,7 +7,7 @@ profile: /profile.jpg
 
 socials:
   - title: github
-    icon: "/~liuly0322/home/icons/github.svg"
+    icon: "/icons/github.svg"
     link: https://github.com/liuly0322
 
 bio: Student at USTC

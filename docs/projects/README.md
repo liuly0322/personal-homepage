@@ -8,7 +8,7 @@ pageClass: projects-page
 
 ## 项目
 
-<ProjectCard image="/projects/blog.png" hideBorder=true>
+<ProjectCard image="/projects/blog.png">
 
 **个人博客** [[链接](http://home.ustc.edu.cn/~liuly0322/blog)]
 
@@ -20,7 +20,7 @@ pageClass: projects-page
 
 </ProjectCard>
 
-<ProjectCard image="/projects/lc3web.png" hideBorder=true>
+<ProjectCard image="/projects/lc3web.png">
 
 **lc3 自动评测系统** [[链接](http://home.ustc.edu.cn/~liuly0322/lc3web)]
 
@@ -30,7 +30,7 @@ pageClass: projects-page
 
 </ProjectCard>
 
-<ProjectCard image="/projects/dslab1.png" hideBorder=true>
+<ProjectCard image="/projects/dslab1.png">
 
 **数据结构课程实验航空订票系统** [[链接](http://home.ustc.edu.cn/~liuly0322/homework/flight/)]
 
@@ -40,7 +40,7 @@ pageClass: projects-page
 
 </ProjectCard>
 
-<ProjectCard image="/projects/codepen.png" hideBorder=true>
+<ProjectCard image="/projects/codepen.png">
 
 **代码粘贴板** [[链接](http://home.ustc.edu.cn/~liuly0322/codepen/)]
 
@@ -50,7 +50,7 @@ pageClass: projects-page
 
 </ProjectCard>
 
-<ProjectCard image="/projects/poly.png" hideBorder=true>
+<ProjectCard image="/projects/poly.png">
 
 **一元稀疏多项式计算器** [[链接](http://home.ustc.edu.cn/~liuly0322/homework/poly/)]
 
@@ -60,7 +60,7 @@ pageClass: projects-page
 
 </ProjectCard>
 
-<ProjectCard image="/projects/sudoku.png" hideBorder=true>
+<ProjectCard image="/projects/sudoku.png">
 
 **X 数独** [[链接](https://github.com/liuly0322/sudoku-game)]
 

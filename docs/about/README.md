@@ -12,7 +12,7 @@ socials:
     link: "mailto:liuly0322@mail.ustc.edu.cn"
 actions:
   - text: 项目
-    link: /~liuly0322/home/projects/
+    link: /projects/
   - text: 博客
     link: http://home.ustc.edu.cn/~liuly0322/blog
 footer: Made with ♥ by Fing. Powered by VuePress
