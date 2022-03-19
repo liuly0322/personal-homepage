@@ -11,6 +11,7 @@ module.exports = {
       { text: "主页", link: "/" },
       { text: "关于", link: "/about/" },
       { text: "项目", link: "/projects/" },
+      { text: "评课", link: "/comments/" },
     ],
     sidebar: {
       "/guide/": genSidebarConfig("Guide"),
