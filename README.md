@@ -17,6 +17,11 @@ $ yarn dev
 
 Check your site at `http://127.0.0.1:8080/`
 
+## deploy
+
+```bash
+yarn build
+```
 
 ## Credit
 
